@@ -1,0 +1,68 @@
+# Reading pref.tcl
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:43:17 on Jan 18,2025
+# vlog -reportprogress 300 back_door_tb.v 
+# ** Error: back_door_tb.v(1): Cannot open `include file "memory.v".
+# -- Compiling module top
+# ** Error: (vlog-13069) back_door_tb.v(12): near "]": syntax error, unexpected ']'.
+# ** Error: (vlog-13069) back_door_tb.v(26): near "2": syntax error, unexpected INTEGER NUMBER, expecting '('.
+# ** Error: back_door_tb.v(42): (vlog-2730) Undefined variable: 'wdata'.
+# End time: 22:43:17 on Jan 18,2025, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./run.do line 2
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog back_door_tb.v"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:44:52 on Jan 18,2025
+# vlog -reportprogress 300 back_door_tb.v 
+# ** Error: back_door_tb.v(1): Cannot open `include file "memory.v".
+# -- Compiling module top
+# ** Error: (vlog-13069) back_door_tb.v(26): near "2": syntax error, unexpected INTEGER NUMBER, expecting '('.
+# End time: 22:44:52 on Jan 18,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./run.do line 2
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog back_door_tb.v"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:45:15 on Jan 18,2025
+# vlog -reportprogress 300 back_door_tb.v 
+# ** Error: back_door_tb.v(1): Cannot open `include file "memory.v".
+# -- Compiling module top
+# End time: 22:45:15 on Jan 18,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./run.do line 2
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog back_door_tb.v"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:45:50 on Jan 18,2025
+# vlog -reportprogress 300 back_door_tb.v 
+# -- Compiling module memory
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 22:45:50 on Jan 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 22:45:50 on Jan 18,2025
+# Loading work.top
+# Loading work.memory
+# ** Note: $finish    : back_door_tb.v(31)
+#    Time: 15 ps  Iteration: 1  Instance: /top
+# 1
+# Break in Module top at back_door_tb.v line 31
+# End time: 23:09:17 on Jan 18,2025, Elapsed time: 0:23:27
+# Errors: 0, Warnings: 0
